@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { Header } from './components/Header'
-import { Post } from './post'
+import { Post } from './components/Post'
+import { SideBar } from './components/Sidebar'
 
 import styles from "./App.module.css"
 
 import './global.css'
-import { SideBar } from './components/Sidebar'
 
 
 export function App() {
